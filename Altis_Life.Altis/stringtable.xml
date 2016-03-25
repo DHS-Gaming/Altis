@@ -6094,6 +6094,10 @@
       <Portuguese>Comprador de Barras de Ouro</Portuguese>
       <Polish>Skup złota</Polish>
     </Key>
+    <Key ID="STR_MAR_Gang_Weapons">
+      <Original>Gang Weapons</Original>
+      <German>Gang Waffen</German>
+    </Key>
     <Key ID="STR_MAR_Gang_Hideout1">
       <Original>Gang Hideout 1</Original>
       <German>Gang Versteck 1</German>

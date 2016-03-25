@@ -56,7 +56,6 @@ class CarShops {
         side = "civ";
         vehicles[] = {
 			{ "O_G_Van_01_fuel_F", 10000, { "trucking" }, { "", "", -1 } },
-            { "O_Truck_03_covered_F", 40000, { "trucking" }, { "", "", -1 } },
             { "C_Van_01_box_F", 60000, { "trucking" }, { "", "", -1 } },
             { "I_Truck_02_transport_F", 75000, { "trucking" }, { "", "", -1 } },
             { "I_Truck_02_covered_F", 100000, { "trucking" }, { "", "", -1 } },
@@ -820,7 +819,7 @@ class LifeCfgVehicles {
     };
 
     class O_Heli_Transport_04_box_F {
-        vItemSpace = 300;
+        vItemSpace = 700;
         storageFee[] = { 55000, 0, 22000, 0 };
         garageSell[] = { 72500, 0, 35000, 0 };
         insurance = 2500;

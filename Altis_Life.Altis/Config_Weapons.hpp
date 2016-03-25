@@ -55,24 +55,24 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
 			
-			{ "arifle_Katiba_C_ACO_pointer_snds_F", "", 50000, 7500 },
+			{ "arifle_Katiba_C_ACO_pointer_snds_F", "Kati ARCO", 50000, 7500 },
 			{ "arifle_Mk20C_plain_F", "", 60000, 7500 },
-			{ "arifle_Mk20_MRCO_plain_F", "", 70000, 7500 },
-			{ "arifle_Katiba_ARCO_pointer_snds_F", "", 80000, 7500 },
+			{ "arifle_Mk20_MRCO_plain_F", "Mk20 MRCO", 70000, 7500 },
+			{ "arifle_Katiba_ARCO_pointer_snds_F", "Kati ARCO SD", 80000, 7500 },
 			{ "arifle_TRG21_MRCO_F", "", 50000, 7500 },
 			
-			{ "srifle_DMR_01_DMS_F", "", 100000, 7500 },
-			{ "srifle_DMR_01_DMS_snds_BI_F", "", 250000, 7500 },
+			{ "srifle_DMR_01_DMS_F", "Rahim", 100000, 7500 },
+			{ "srifle_DMR_01_DMS_snds_BI_F", "Rahim Bipod", 250000, 7500 },
 			
-			{ "srifle_EBR_MRCO_LP_BI_F", "", 200000, 7500 },
-			{ "srifle_EBR_MRCO_pointer_F", "", 220000, 7500 },
-			{ "srifle_EBR_ARCO_pointer_F", "", 230000, 7500 },
-			{ "srifle_EBR_SOS_F", "", 250000, 7500 },
-			{ "srifle_EBR_ARCO_pointer_snds_F", "", 200000, 7500 },
-			{ "srifle_EBR_DMS_pointer_snds_F", "", 300000, 7500 },
+			{ "srifle_EBR_MRCO_LP_BI_F", "MK18 Bipod", 200000, 7500 },
+			{ "srifle_EBR_MRCO_pointer_F", "MK18 MRCO", 220000, 7500 },
+			{ "srifle_EBR_ARCO_pointer_F", "MK18 ARCO", 230000, 7500 },
+			{ "srifle_EBR_SOS_F", "MK18 SOS", 250000, 7500 },
+			{ "srifle_EBR_ARCO_pointer_snds_F", "MK18 ARCO SD", 200000, 7500 },
+			{ "srifle_EBR_DMS_pointer_snds_F", "MK18 DMS SD", 300000, 7500 },
 			
 			{ "arifle_Mk20_plain_F", "", 50000, 7500 },
-			{ "arifle_Mk20_MRCO_plain_F", "", 50000, 7500 },
+			{ "arifle_Mk20_MRCO_plain_F", "Mk20 MRCO", 50000, 7500 },
 			
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
@@ -95,46 +95,6 @@ class WeaponShops {
 			{ "20Rnd_762x51_Mag", "", 200 }
         };
     };
-
-    class gang_dhs {
-        name = "DHS Gang Armament";
-        side = "civ";
-        license = "dhs";
-        level[] = { "", "", -1, "" };
-        items[] = {
-			
-			{ "srifle_DMR_05_blk_F", "", 500000, 7500 },
-			{ "srifle_DMR_05_KHS_LP_F", "", 500000, 7500 },
-			
-			{ "srifle_DMR_06_camo_khs_F", "", 500000, 7500 },
-			
-			{ "LMG_Zafir_pointer_F", "", 2000000, 7500 },
-			
-			{ "LMG_Mk200_LP_BI_F", "", 2500000, 7500 },
-			
-			{ "bipod_01_F_blk", "", 20000, 500 },
-			{ "optic_KHS_blk", "", 50000, 500 },
-			
-            { "Binocular", "", 150, -1 },
-            { "ItemGPS", "", 100, 45 },
-            { "ItemMap", "", 50, 35 },
-            { "ItemCompass", "", 50, 25 },
-            { "ItemWatch", "", 50, -1 },
-            { "ToolKit", "", 250, 75 },
-            { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 },
-            { "Chemlight_red", "", 300, -1 },
-            { "Chemlight_yellow", "", 300, 50 },
-            { "Chemlight_green", "", 300, 50 },
-            { "Chemlight_blue", "", 300, 50 }
-        };
-        mags[] = {
-			{ "10Rnd_93x64_DMR_05_Mag", "", 450 },
-			{ "20Rnd_762x51_Mag", "", 900 },
-			{ "150Rnd_762x54_Box_Tracer", "", 10000 },
-			{ "200Rnd_65x39_cased_Box_Tracer", "", 20000 },
-        };
-    };
 	
     class gang {
         name = "Gang Hideout Armament";
@@ -144,7 +104,7 @@ class WeaponShops {
         items[] = {
 			
 			{ "srifle_DMR_05_blk_F", "", 500000, 7500 },
-			{ "srifle_DMR_05_KHS_LP_F", "", 500000, 7500 },
+			{ "srifle_DMR_05_KHS_LP_F", "Cyrus KHS", 500000, 7500 },
 			
 			{ "srifle_DMR_06_camo_khs_F", "", 500000, 7500 },
 			
@@ -173,56 +133,6 @@ class WeaponShops {
 			{ "20Rnd_762x51_Mag", "", 900 },
 			{ "150Rnd_762x54_Box_Tracer", "", 10000 },
 			{ "200Rnd_65x39_cased_Box_Tracer", "", 20000 },
-        };
-    };
-
-    class blackmarket_weapons_dhs {
-        name = "DHS Black Market Weapons";
-        side = "civ";
-        license = "dhs";
-        level[] = { "", "", -1, "" };
-        items[] = {
-			
-			{ "arifle_MXC_Black_F", "", 200000, 7500 },
-			{ "arifle_MX_Black_F", "", 400000, 7500 },
-			{ "arifle_MXM_Black_F", "", 1000000, 7500 },
-			{ "arifle_MXM_DMS_LP_BI_snds_F", "", 2000000, 7500 },
-			
-			{ "bipod_01_F_blk", "", 10000, 500 },
-			{ "optic_KHS_blk", "", 50000, 500 },
-			
-			{ "srifle_DMR_03_F", "", 2500000, 7500 },
-			{ "srifle_DMR_03_ACO_F", "", 3000000, 7500 },
-			{ "srifle_DMR_03_MRCO_F", "", 3000000, 7500 },
-			{ "srifle_DMR_03_SOS_F", "", 3500000, 7500 },
-			{ "srifle_DMR_03_DMS_F", "", 3500000, 7500 },
-			{ "srifle_DMR_03_tan_AMS_LP_F", "", 4000000, 7500 },
-			
-			{ "arifle_MX_SW_Black_F", "", 1000000, 7500 },
-			{ "arifle_MX_SW_Black_Hamr_pointer_F", "", 1500000, 7500 },
-			
-			{ "MMG_02_black_RCO_BI_F", "", 4000000, 7500 },
-			
-            { "Binocular", "", 150, -1 },
-            { "ItemGPS", "", 100, 45 },
-            { "ItemMap", "", 50, 35 },
-            { "ItemCompass", "", 50, 25 },
-            { "ItemWatch", "", 50, -1 },
-            { "ToolKit", "", 250, 75 },
-            { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 },
-            { "Chemlight_red", "", 300, -1 },
-            { "Chemlight_yellow", "", 300, 50 },
-            { "Chemlight_green", "", 300, 50 },
-            { "Chemlight_blue", "", 300, 50 }
-        };
-        mags[] = {
-			{ "30Rnd_65x39_caseless_mag", "", 450 },
-			{ "30Rnd_65x39_caseless_mag_Tracer", "", 450 },
-			{ "20Rnd_762x51_Mag", "", 900 },
-			{ "100Rnd_65x39_caseless_mag", "", 4500 },
-			{ "100Rnd_65x39_caseless_mag_Tracer", "", 4500 },
-			{ "130Rnd_338_Mag", "", 4500 }
         };
     };
 	
@@ -236,20 +146,20 @@ class WeaponShops {
 			{ "arifle_MXC_Black_F", "", 200000, 7500 },
 			{ "arifle_MX_Black_F", "", 400000, 7500 },
 			{ "arifle_MXM_Black_F", "", 1000000, 7500 },
-			{ "arifle_MXM_DMS_LP_BI_snds_F", "", 2000000, 7500 },
+			{ "arifle_MXM_DMS_LP_BI_snds_F", "MXM DMS", 2000000, 7500 },
 			
 			{ "bipod_01_F_blk", "", 10000, 500 },
 			{ "optic_KHS_blk", "", 50000, 500 },
 			
 			{ "srifle_DMR_03_F", "", 2500000, 7500 },
-			{ "srifle_DMR_03_ACO_F", "", 3000000, 7500 },
-			{ "srifle_DMR_03_MRCO_F", "", 3000000, 7500 },
-			{ "srifle_DMR_03_SOS_F", "", 3500000, 7500 },
-			{ "srifle_DMR_03_DMS_F", "", 3500000, 7500 },
-			{ "srifle_DMR_03_tan_AMS_LP_F", "", 4000000, 7500 },
+			{ "srifle_DMR_03_ACO_F", "Mk1 ACO", 3000000, 7500 },
+			{ "srifle_DMR_03_MRCO_F", "Mk1 MRCO", 3000000, 7500 },
+			{ "srifle_DMR_03_SOS_F", "Mk1 SOS", 3500000, 7500 },
+			{ "srifle_DMR_03_DMS_F", "Mk1 DMS", 3500000, 7500 },
+			{ "srifle_DMR_03_tan_AMS_LP_F", "Mk1 AMS", 4000000, 7500 },
 			
 			{ "arifle_MX_SW_Black_F", "", 1000000, 7500 },
-			{ "arifle_MX_SW_Black_Hamr_pointer_F", "", 1500000, 7500 },
+			{ "arifle_MX_SW_Black_Hamr_pointer_F", "MXSW Hamr", 1500000, 7500 },
 			
 			{ "MMG_02_black_RCO_BI_F", "", 4000000, 7500 },
 			
