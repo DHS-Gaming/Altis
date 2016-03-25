@@ -6136,6 +6136,10 @@
       <Portuguese>Loja de Armas Rebeldes</Portuguese>
       <Polish>Zbrojownia rebelianta</Polish>
     </Key>
+    <Key ID="STR_MAR_Black_Market_Weapons">
+      <Original>Black Market Weapons</Original>
+      <German>Waffen Schwarzmarkt</German>
+    </Key>	
     <Key ID="STR_MAR_Helicopter_Shop">
       <Original>Helicopter Shop</Original>
       <German>Verkäufer für Heli's</German>

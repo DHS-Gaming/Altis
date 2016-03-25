@@ -21,15 +21,15 @@ class Life_Settings {
 
     /* Medic related settings*/
     allow_medic_weapons = false; // true allows medics to hold/use weapons - false disallows
-	
-	//
-	// if you set these values to false then three additional vms with while(true) will be spawned on the clients running arma3
-	// be aware that it can induce load on the client of the player who is playing the medic
-	//
-	allow_medic_autohover = true;
-	allow_medic_vehicle_thirdperson = true;
-	allow_medic_player_thirdperson = true;
-	
+
+  //
+  // if you set these values to false then three additional vms with while(true) will be spawned on the clients running arma3
+  // be aware that it can induce load on the client of the player who is playing the medic
+  //
+  allow_medic_autohover = true;
+  allow_medic_vehicle_thirdperson = true;
+  allow_medic_player_thirdperson = true;
+
     /* Revive system settings */
     revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
     revive_fee = 30000; //Revive fee that players have to pay and medics / EMS are rewarded
@@ -43,7 +43,7 @@ class Life_Settings {
     gang_upgradeMultiplier = 2.5; //Not sure if in use?
 
     /* Player-related systems */
-    enable_fatigue = true; //Set to false to disable the ARMA 3 false system.
+    enable_fatigue = false; //Set to false to disable the ARMA 3 false system.
     total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
     paycheck_period = 5; //Scaled in minutes
 
