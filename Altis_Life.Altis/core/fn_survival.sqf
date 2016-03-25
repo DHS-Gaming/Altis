@@ -48,15 +48,23 @@ _fnc_water = {
 _fnc_incremental_paycheck = {
 	if (playerSide == civilian) then {
 		if ((life_atmbank + life_cash) < 200000) then {
-			_currentIncrementalPaycheck = (time - life_login_time) * 4;
+			//
+			// t_1 money: 12600
+			// t_2 money: 46800
+			// t_3 money: 102600
+			// t_4 money: 180000
+			// t_5 money: 279000
+			// t_6 total: 378000
+			//
+			_currentIncrementalPaycheck = (time - life_login_time) * 1;
 		};
 
 		if ((life_atmbank + life_cash) < 400000) then {
-			_currentIncrementalPaycheck = (time - life_login_time) * 3;
+			_currentIncrementalPaycheck = (time - life_login_time) * 1;
 		};
 		
 		if ((life_atmbank + life_cash) < 600000) then {
-			_currentIncrementalPaycheck = (time - life_login_time) * 2;
+			_currentIncrementalPaycheck = (time - life_login_time) * 1;
 		};
 
 		if ((life_atmbank + life_cash) < 800000) then {
@@ -64,30 +72,25 @@ _fnc_incremental_paycheck = {
 		};		
 		
 		if ((life_atmbank + life_cash) < 2000000) then {
-			_currentIncrementalPaycheck = (time - life_login_time) * 2;
+			_currentIncrementalPaycheck = (time - life_login_time) * 1;
 		};
 
 		if ((life_atmbank + life_cash) < 4000000) then {
-			_currentIncrementalPaycheck = (time - life_login_time) * 3;
+			_currentIncrementalPaycheck = (time - life_login_time) * 1;
 		};
 		
 		if ((life_atmbank + life_cash) < 8000000) then {
-			_currentIncrementalPaycheck = (time - life_login_time) * 4;
+			_currentIncrementalPaycheck = (time - life_login_time) * 1;
 		};
 		
 		if ((life_atmbank + life_cash) < 20000000) then {
-			_currentIncrementalPaycheck = (time - life_login_time) * 5;
+			_currentIncrementalPaycheck = (time - life_login_time) * 1;
 		} else {
-			_currentIncrementalPaycheck = (time - life_login_time) * 6;
+			_currentIncrementalPaycheck = (time - life_login_time) * 1;
 		};
 		
-		//
-		// DISABLED
-		//
-		// life_atmbank = life_atmbank + _currentIncrementalPaycheck;
-		// systemChat format[localize "STR_FSM_ReceivedIncrementalPay",[_currentIncrementalPaycheck] call life_fnc_numberText];
-		//
-		
+		life_atmbank = life_atmbank + _currentIncrementalPaycheck;
+		systemChat format[localize "STR_FSM_ReceivedIncrementalPay",[_currentIncrementalPaycheck] call life_fnc_numberText];
 	};
 };
 
