@@ -66,7 +66,7 @@ class WeaponShops {
 			
 			{ "srifle_EBR_MRCO_LP_BI_F", "MK18 Bipod", 200000, 7500 },
 			{ "srifle_EBR_MRCO_pointer_F", "MK18 MRCO", 220000, 7500 },
-			{ "srifle_EBR_ARCO_pointer_F", "MK18 ARCO", 230000, 7500 },
+			{ "srifle_EBR_ARCO_pointer_F", "MK18 DMS", 230000, 7500 },
 			{ "srifle_EBR_SOS_F", "MK18 SOS", 250000, 7500 },
 			{ "srifle_EBR_ARCO_pointer_snds_F", "MK18 ARCO SD", 200000, 7500 },
 			{ "srifle_EBR_DMS_pointer_snds_F", "MK18 DMS SD", 300000, 7500 },
