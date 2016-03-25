@@ -55,10 +55,10 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
 			
-			{ "arifle_Katiba_C_ACO_pointer_snds_F", "Kati ARCO", 50000, 7500 },
+			{ "arifle_Katiba_C_ACO_pointer_snds_F", "Katiba ARCO", 50000, 7500 },
 			{ "arifle_Mk20C_plain_F", "", 60000, 7500 },
 			{ "arifle_Mk20_MRCO_plain_F", "Mk20 MRCO", 70000, 7500 },
-			{ "arifle_Katiba_ARCO_pointer_snds_F", "Kati ARCO SD", 80000, 7500 },
+			{ "arifle_Katiba_ARCO_pointer_snds_F", "Katiba ARCO SD", 80000, 7500 },
 			{ "arifle_TRG21_MRCO_F", "", 50000, 7500 },
 			
 			{ "srifle_DMR_01_DMS_F", "Rahim", 100000, 7500 },
@@ -66,7 +66,7 @@ class WeaponShops {
 			
 			{ "srifle_EBR_MRCO_LP_BI_F", "MK18 Bipod", 200000, 7500 },
 			{ "srifle_EBR_MRCO_pointer_F", "MK18 MRCO", 220000, 7500 },
-			{ "srifle_EBR_ARCO_pointer_F", "MK18 DMS", 230000, 7500 },
+			{ "srifle_EBR_ARCO_pointer_F", "MK18 ARCO", 230000, 7500 },
 			{ "srifle_EBR_SOS_F", "MK18 SOS", 250000, 7500 },
 			{ "srifle_EBR_ARCO_pointer_snds_F", "MK18 ARCO SD", 200000, 7500 },
 			{ "srifle_EBR_DMS_pointer_snds_F", "MK18 DMS SD", 300000, 7500 },
