@@ -264,7 +264,7 @@ class LifeCfgVehicles {
     };
 
     class O_Truck_03_transport_F {
-        vItemSpace = 285;
+        vItemSpace = 300;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
         insurance = 2500;
@@ -273,7 +273,7 @@ class LifeCfgVehicles {
     };
 
     class O_Truck_03_device_F {
-        vItemSpace = 350;
+        vItemSpace = 600;
         storageFee[] = { 95000, 0, 0, 0 };
         garageSell[] = { 185000, 0, 0, 0 };
         insurance = 25000;
@@ -309,7 +309,7 @@ class LifeCfgVehicles {
     };
 
     class B_G_Offroad_01_F {
-        vItemSpace = 65;
+        vItemSpace = 80;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
         insurance = 2500;
@@ -366,7 +366,7 @@ class LifeCfgVehicles {
 	// nach mehrfacher Anpassung jetzt diese Regelung
 	//
     class B_Truck_01_box_F {
-        vItemSpace = 800;
+        vItemSpace = 1000;
         storageFee[] = { 80000, 0, 0, 0 };
         garageSell[] = { 300000, 0, 0, 0 };
         insurance = 2500;
@@ -375,7 +375,7 @@ class LifeCfgVehicles {
     };
 
     class B_Truck_01_transport_F {
-        vItemSpace = 325;
+        vItemSpace = 400;
         storageFee[] = { 25650, 0, 0, 0 };
         garageSell[] = { 135000, 0, 0, 0 };
         insurance = 2500;
