@@ -81,8 +81,13 @@ _fnc_incremental_paycheck = {
 			_currentIncrementalPaycheck = (time - life_login_time) * 6;
 		};
 		
-		life_atmbank = life_atmbank + _currentIncrementalPaycheck;
-		systemChat format[localize "STR_FSM_ReceivedIncrementalPay",[_currentIncrementalPaycheck] call life_fnc_numberText];
+		//
+		// DISABLED
+		//
+		// life_atmbank = life_atmbank + _currentIncrementalPaycheck;
+		// systemChat format[localize "STR_FSM_ReceivedIncrementalPay",[_currentIncrementalPaycheck] call life_fnc_numberText];
+		//
+		
 	};
 };
 
