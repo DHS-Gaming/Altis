@@ -62,7 +62,7 @@ class CarShops {
             { "B_Truck_01_transport_F", 275000, { "trucking" }, { "", "", -1 } },
             { "O_Truck_03_transport_F", 200000, { "trucking" }, { "", "", -1 } },
             { "O_Truck_03_covered_F", 250000, { "trucking" }, { "", "", -1 } },
-            { "B_Truck_01_box_F", 3000000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_box_F", 30000000, { "trucking" }, { "", "", -1 } },
             { "O_Truck_03_device_F", 6080000, { "trucking" }, { "", "", -1 } }
         };
     };
@@ -93,7 +93,7 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", 253000, { "pilot" }, { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", 750000, { "pilot" }, { "", "", -1 } },
-			{ "O_Heli_Transport_04_box_F", 3450000, { "pilot" }, { "", "", -1 } },
+			{ "O_Heli_Transport_04_box_F", 30000000, { "pilot" }, { "", "", -1 } },
 			{ "B_Heli_Transport_03_unarmed_F", 5000000, { "pilot" }, { "", "", -1 } }
         };
     };
