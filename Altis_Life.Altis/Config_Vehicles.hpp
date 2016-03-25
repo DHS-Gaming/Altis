@@ -850,3 +850,12 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 };
+
+    class O_Truck_03_covered_F {
+        vItemSpace = 300;
+        storageFee[] = { 25000, 0, 0, 0 };
+        garageSell[] = { 65000, 0, 0, 0 };
+        insurance = 2500;
+        chopShop = 125000;
+        textures[] = {};
+    };
