@@ -92,7 +92,7 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", 253000, { "pilot" }, { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", 750000, { "pilot" }, { "", "", -1 } },
-			{ "O_Heli_Transport_04_box_F", 1500000, { "pilot" }, { "", "", -1 } }
+			{ "O_Heli_Transport_04_box_F", 3450000, { "pilot" }, { "", "", -1 } }
         };
     };
 
