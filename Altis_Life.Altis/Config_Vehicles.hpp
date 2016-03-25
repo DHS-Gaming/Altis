@@ -55,6 +55,7 @@ class CarShops {
     class civ_truck {
         side = "civ";
         vehicles[] = {
+			{ "O_G_Van_01_fuel_F", 10000, { "trucking" }, { "", "", -1 } },
             { "O_Truck_03_covered_F", 40000, { "trucking" }, { "", "", -1 } },
             { "C_Van_01_box_F", 60000, { "trucking" }, { "", "", -1 } },
             { "I_Truck_02_transport_F", 75000, { "trucking" }, { "", "", -1 } },
@@ -93,8 +94,8 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", 253000, { "pilot" }, { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", 750000, { "pilot" }, { "", "", -1 } },
-	    { "O_Heli_Transport_04_box_F", 3450000, { "pilot" }, { "", "", -1 } }
-	    { "B_Heli_Transport_03_unarmed_F", 5000000, { "pilot" }, { "", "", -1 } }
+			{ "O_Heli_Transport_04_box_F", 3450000, { "pilot" }, { "", "", -1 } },
+			{ "B_Heli_Transport_03_unarmed_F", 5000000, { "pilot" }, { "", "", -1 } }
         };
     };
 
@@ -681,6 +682,22 @@ class LifeCfgVehicles {
         };
     };
 
+    class O_G_Van_01_fuel_F {
+        vItemSpace = 100;
+        storageFee[] = { 1000, 0, 0, 0 };
+        garageSell[] = { 25000, 0, 0, 0 };
+        insurance = 2500;
+        chopShop = 22500;
+        textures[] = {
+			{ "White", "civ", {
+                "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
+            } },
+            { "Red", "civ", {
+                "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
+            } }
+        };
+    };
+		
     class C_Van_01_box_F {
         vItemSpace = 150;
         storageFee[] = { 1000, 0, 0, 0 };
@@ -851,17 +868,7 @@ class LifeCfgVehicles {
         chopShop = 75000;
         textures[] = {};
     };
-};
 
-    class O_Truck_03_covered_F {
-        vItemSpace = 300;
-        storageFee[] = { 25000, 0, 0, 0 };
-        garageSell[] = { 65000, 0, 0, 0 };
-        insurance = 2500;
-        chopShop = 125000;
-        textures[] = {};
-    };
-};
     class B_Heli_Transport_03_unarmed_F {
         vItemSpace = 700;
         storageFee[] = { 25000, 0, 0, 0 };
@@ -869,3 +876,8 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 125000;
         textures[] = {};
+    };
+
+	
+	
+};
