@@ -93,7 +93,8 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", 253000, { "pilot" }, { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", 750000, { "pilot" }, { "", "", -1 } },
-			{ "O_Heli_Transport_04_box_F", 3450000, { "pilot" }, { "", "", -1 } }
+	    { "O_Heli_Transport_04_box_F", 3450000, { "pilot" }, { "", "", -1 } }
+	    { "B_Heli_Transport_03_unarmed_F", 5000000, { "pilot" }, { "", "", -1 } }
         };
     };
 
@@ -860,3 +861,11 @@ class LifeCfgVehicles {
         chopShop = 125000;
         textures[] = {};
     };
+};
+    class B_Heli_Transport_03_unarmed_F {
+        vItemSpace = 700;
+        storageFee[] = { 25000, 0, 0, 0 };
+        garageSell[] = { 65000, 0, 0, 0 };
+        insurance = 2500;
+        chopShop = 125000;
+        textures[] = {};
