@@ -77,27 +77,7 @@ if(EQUAL(LIFE_SETTINGS(getNumber,"allow_medic_player_thirdperson"),0)) then
 };
 
 //
-// XOXO Rettungshelfer
-//
-[] spawn {
-	while {true} do {
-		waitUntil {uniform player == "U_Rangemaster"};
-
-		//
-		// macht jeden Rucksack komplett rot
-		//
-		(backpackContainer player) setObjectTextureGlobal [0, "#(rgb,8,8,3)color(1,0,0,1)"];
-		
-		player setObjectTextureGlobal [0, "#(rgb,8,8,3)color(1,0,0,1)"];
-
-		player setObjectTextureGlobal [0, "textures\rettungshelfer.paa"];
-
-		waitUntil {uniform player != "U_Rangemaster"};
-	};
-};
-
-//
-// XOXO Notarzt
+// XOXO Medic
 //
 [] spawn {
 	while {true} do {
@@ -110,7 +90,7 @@ if(EQUAL(LIFE_SETTINGS(getNumber,"allow_medic_player_thirdperson"),0)) then
 		
 		player setObjectTextureGlobal [0, "#(rgb,8,8,3)color(1,1,1,1)"];
 
-		player setObjectTextureGlobal [0, "textures\notarzt.paa"];
+		player setObjectTextureGlobal [0, "textures\berlin-medic-uniform1024.jpg"];
 
 		waitUntil {uniform player != "U_C_Scientist"};
 	};

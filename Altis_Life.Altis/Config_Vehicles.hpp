@@ -22,6 +22,7 @@ class CarShops {
             { "C_Hatchback_01_F", 9500, { "driver" }, { "", "", -1 } },
             { "C_Offroad_01_F", 12500, { "driver" }, { "", "", -1 } },
             { "C_SUV_01_F", 30000, { "driver" }, { "", "", -1 } },
+			{ "SUV_01_base_black_F", 300000, { "driver" }, { "life_adminlevel", "SCALAR", 2 } },
             { "C_Hatchback_01_sport_F", 40000, { "driver" }, { "", "", -1 } },
             { "C_Van_01_transport_F", 45000, { "driver" }, { "", "", -1 } }
         };
@@ -40,7 +41,9 @@ class CarShops {
     class med_shop {
         side = "med";
         vehicles[] = {
-			{ "C_Van_01_box_F", 20000, { "" }, { "", "", -1 } }
+			{ "C_Van_01_box_F", 20000, { "" }, { "", "", -1 } },
+			{ "C_Offroad_01_F", 20000, { "" }, { "", "", -1 } },
+			{ "C_SUV_01_F", 20000, { "" }, { "", "", -1 } }
         };
     };
 
@@ -450,7 +453,10 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
             } },
             { "Polizei", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
+                "textures\polizei_offroad.jpg"
+            } },
+            { "Johanniter", "med", {
+                "textures\medic_offroad.jpg"
             } }
         };
     };
@@ -517,7 +523,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport06_co.paa"
             } },
             { "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
+                "textures\HB_COP_Proto.jpg"
             } }
         };
     };
@@ -643,6 +649,22 @@ class LifeCfgVehicles {
         };
     };
 
+	//
+	// Dienstwagen der Admins
+	//
+	class SUV_01_base_black_F {
+        vItemSpace = 100;
+        storageFee[] = { 1000, 0, 0, 0 };
+        garageSell[] = { 15000, 7500, 0, 0 };
+        insurance = 2500;
+        chopShop = 1500000;
+        textures[] = {
+            { "ADMINS Fire", "civ", {
+                "textures\admin_suv.jpg"
+			} }
+        };		
+	};
+	
     class C_SUV_01_F {
         vItemSpace = 50;
         storageFee[] = { 1000, 0, 0, 0 };
@@ -659,8 +681,23 @@ class LifeCfgVehicles {
             { "Orange", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa"
             } },
+            { "Sticker", "civ", {
+                "textures\Sticker_LowTexture.jpg"
+            } },
+            { "Wolfenstein", "civ", {
+                "textures\Wolfenstein_LowTexture.jpg"
+            } },
+            { "Zero", "civ", {
+                "textures\Zero_LowTexture.jpg"
+            } },
+            { "Rio", "civ", {
+                "textures\suv_01_ext_03_co__RIO_TextureLow.jpg"
+            } },			
             { "Polizei", "cop", {
                 "textures\polizei-SUV.jpg"
+            } },
+            { "Johanniter", "med", {
+                "textures\medic_suv.jpg"
             } }
         };
     };
@@ -711,7 +748,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
             } },
             { "RTW", "med", {
-				"textures\rtw_unterbau.paa",
+				"textures\van_rtw1.jpg",
                 "textures\rtw_aufbau.paa"		
             } }			
         };

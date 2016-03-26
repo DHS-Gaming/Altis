@@ -165,13 +165,12 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_Rangemaster", "Rettungshelfer", 5000, { "", "", -1 } },
-            { "U_C_Scientist", "Notarzt", 50000, { "life_mediclevel", "SCALAR", 4 } }
+            { "U_C_Scientist", "Rettungshelfer", 5000, { "", "", -1 } },
+            { "U_C_Scientist", "Notarzt", 10000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "H_Cap_blu", "", 10, { "", "", -1 } },
-			{ "H_RacingHelmet_1_red_F", "Notarzt", 10000, { "life_mediclevel", "SCALAR", 4 } }
+            { "H_Cap_blu", "", 10, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -184,7 +183,7 @@ class Clothing {
         backpacks[] = {
             { "NONE", "Remove backpack", 0, { "", "", -1 } },
             { "B_Bergen_blk", "Rettungshelfer", 3000, { "", "", -1 } },
-			{ "B_AssaultPack_blk", "Notarzt", 50000, { "life_mediclevel", "SCALAR", 4 } }
+			{ "B_AssaultPack_blk", "Notarzt", 5000, { "life_mediclevel", "SCALAR", 4 } }
         };
     };
 	
