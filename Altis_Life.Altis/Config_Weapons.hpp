@@ -95,7 +95,7 @@ class WeaponShops {
 			{ "20Rnd_762x51_Mag", "", 200 }
         };
     };
-	
+
     class gang {
         name = "Gang Hideout Armament";
         side = "civ";
@@ -103,14 +103,14 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
 			
-			{ "srifle_DMR_05_blk_F", "", 500000, 7500 },
-			{ "srifle_DMR_05_KHS_LP_F", "Cyrus KHS", 500000, 7500 },
+			{ "srifle_DMR_05_blk_F", "", 200000, 7500 },
+			{ "srifle_DMR_05_KHS_LP_F", "Cyrus KHS", 250000, 7500 },
 			
-			{ "srifle_DMR_06_camo_khs_F", "", 500000, 7500 },
+			{ "srifle_DMR_06_camo_khs_F", "", 350000, 7500 },
 			
-			{ "LMG_Zafir_pointer_F", "", 2000000, 7500 },
+			{ "LMG_Zafir_pointer_F", "", 400000, 7500 },
 			
-			{ "LMG_Mk200_LP_BI_F", "", 2500000, 7500 },
+			{ "LMG_Mk200_LP_BI_F", "", 450000, 7500 },
 			
 			{ "bipod_01_F_blk", "", 20000, 500 },
 			{ "optic_KHS_blk", "", 50000, 500 },
@@ -135,7 +135,7 @@ class WeaponShops {
 			{ "200Rnd_65x39_cased_Box_Tracer", "", 20000 },
         };
     };
-	
+
     class blackmarket_weapons {
         name = "Black Market Guns";
         side = "civ";
@@ -143,25 +143,25 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
 			
-			{ "arifle_MXC_Black_F", "", 200000, 7500 },
-			{ "arifle_MX_Black_F", "", 400000, 7500 },
-			{ "arifle_MXM_Black_F", "", 1000000, 7500 },
-			{ "arifle_MXM_DMS_LP_BI_snds_F", "MXM DMS", 2000000, 7500 },
+			{ "arifle_MXC_Black_F", "", 20000, 7500 },
+			{ "arifle_MX_Black_F", "", 40000, 7500 },
+			{ "arifle_MXM_Black_F", "", 100000, 7500 },
+			{ "arifle_MXM_DMS_LP_BI_snds_F", "MXM DMS", 200000, 7500 },
 			
 			{ "bipod_01_F_blk", "", 10000, 500 },
 			{ "optic_KHS_blk", "", 50000, 500 },
 			
-			{ "srifle_DMR_03_F", "", 2500000, 7500 },
-			{ "srifle_DMR_03_ACO_F", "Mk1 ACO", 3000000, 7500 },
-			{ "srifle_DMR_03_MRCO_F", "Mk1 MRCO", 3000000, 7500 },
-			{ "srifle_DMR_03_SOS_F", "Mk1 SOS", 3500000, 7500 },
-			{ "srifle_DMR_03_DMS_F", "Mk1 DMS", 3500000, 7500 },
-			{ "srifle_DMR_03_tan_AMS_LP_F", "Mk1 AMS", 4000000, 7500 },
+			{ "srifle_DMR_03_F", "", 250000, 7500 },
+			{ "srifle_DMR_03_ACO_F", "Mk1 ACO", 300000, 7500 },
+			{ "srifle_DMR_03_MRCO_F", "Mk1 MRCO", 300000, 7500 },
+			{ "srifle_DMR_03_SOS_F", "Mk1 SOS", 360000, 7500 },
+			{ "srifle_DMR_03_DMS_F", "Mk1 DMS", 350000, 7500 },
+			{ "srifle_DMR_03_tan_AMS_LP_F", "Mk1 AMS", 390000, 7500 },
 			
-			{ "arifle_MX_SW_Black_F", "", 1000000, 7500 },
-			{ "arifle_MX_SW_Black_Hamr_pointer_F", "MXSW Hamr", 1500000, 7500 },
+			{ "arifle_MX_SW_Black_F", "", 250000, 7500 },
+			{ "arifle_MX_SW_Black_Hamr_pointer_F", "MXSW Hamr", 300000, 7500 },
 			
-			{ "MMG_02_black_RCO_BI_F", "", 4000000, 7500 },
+			{ "MMG_02_black_RCO_BI_F", "", 400000, 7500 },
 			
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
@@ -185,7 +185,7 @@ class WeaponShops {
 			{ "130Rnd_338_Mag", "", 4500 }
         };
     };
-	
+
     //Basic Shops
     class genstore {
         name = "Altis General Store";
@@ -244,16 +244,19 @@ class WeaponShops {
             { "ItemMap", "", 250, 35 },
             { "ItemCompass", "", 250, 25 },
             { "ItemWatch", "", 250, -1 },
-            { "ToolKit", "", 1250, 75 },
+            { "ToolKit", "", 250, 75 },
+			{ "MediKit", "", 1250, 75 },
             { "FirstAidKit", "", 750, 65 },
             { "NVGoggles", "", 10000, 980 },
             { "Chemlight_red", "", 1500, -1 },
             { "Chemlight_yellow", "", 1500, 50 },
             { "Chemlight_green", "", 1500, 50 },
-            { "Chemlight_blue", "", 1500, 50 }
+            { "Chemlight_blue", "", 1500, 50 },
+			{ "acc_flashlight", "", 5000, 500 },
+			{ "acc_pointer_IR", "", 10000, 500 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 }
+            { "16Rnd_9x21_Mag", "Stun Pistol Mag", 25 }
         };
     };
 
@@ -266,7 +269,7 @@ class WeaponShops {
 			{ "arifle_sdar_F", "Taser Rifle", 10000, 7500 }
         };
         mags[] = {
-            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 }
+            { "20Rnd_556x45_UW_mag", "Taser Rifle Mag", 45 }
         };
     };
 
@@ -276,55 +279,62 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 3, "Du musst Oberkommissar sein!" };
         items[] = {
-			{ "arifle_MXC_Black_F", "", 30000, 7500 }
+			{ "arifle_MXC_Black_F", "", 20000, 7500 }
         };
         mags[] = {
             { "30Rnd_65x39_caseless_mag_Tracer", "", 45 }
 
         };
     };
-    
+
     class cop_phk {
         name = "Altis Hauptkommissar Shop";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 4, "Du musst Hauptkommissar sein!" };
         items[] = {
-			{ "arifle_MX_Black_F", "", 40000, 7500 }
+			{ "arifle_MX_Black_F", "", 30000, 7500 },
+			{ "muzzle_snds_H", "SD 6.5MM", 10000, 500 }
         };
         mags[] = {
 			{ "30Rnd_65x39_caseless_mag_Tracer", "", 45 }
         };
     };
-    
+
     class cop_ephk {
         name = "Altis Erster Hauptkommissar Shop";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 5, "Du musst Erster Hauptkommissar sein!" };
         items[] = {
-			{ "arifle_MXM_Black_F", "", 100000, 7500 },
-			{ "arifle_MXM_DMS_LP_BI_snds_F", "", 200000, 7500 },
-			{ "bipod_01_F_blk", "", 1000, 500 },
-			{ "optic_KHS_blk", "", 20000, 500 }
+			{ "arifle_MXM_Black_F", "", 40000, 7500 },
+			{ "arifle_MXM_DMS_LP_BI_snds_F", "MXM DMS SD", 46000, 7500 },
+			{ "optic_KHS_blk", "", 10000, 500 },
+			{ "optic_AMS", "", 10000, 500 },
+			{ "optic_LRPS", "", 10000, 500 },
+			{ "optic_DMS", "", 10000, 500 },
+			{ "optic_MRCO", "", 5000, 500 },
+			{ "optic_SOS", "", 10000, 500 },
+			{ "optic_Arco", "", 5000, 500 },
+			{ "bipod_01_F_blk", "", 1000, 500 }
         };
         mags[] = {
 			{ "30Rnd_65x39_caseless_mag_Tracer", "", 45 }
         };		
     };
-    
+
     class cop_pra {
         name = "Altis Ratanwärter Shop";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 6, "Du musst Ratanwärter sein!" };
         items[] = {
-			{ "srifle_DMR_03_F", "", 300000, 7500 },
-			{ "srifle_DMR_03_ACO_F", "", 350000, 7500 },
-			{ "srifle_DMR_03_MRCO_F", "", 350000, 7500 },
-			{ "srifle_DMR_03_SOS_F", "", 350000, 7500 },
-			{ "srifle_DMR_03_DMS_F", "", 350000, 7500 },
-			{ "srifle_DMR_03_tan_AMS_LP_F", "", 400000, 7500 }
+			{ "srifle_DMR_03_F", "", 30000, 7500 },
+			{ "srifle_DMR_03_ACO_F", "Mk1 ACO", 35000, 7500 },
+			{ "srifle_DMR_03_MRCO_F", "Mk1 MRCO", 35000, 7500 },
+			{ "srifle_DMR_03_SOS_F", "Mk1 SOS", 35000, 7500 },
+			{ "srifle_DMR_03_DMS_F", "Mk1 DMS", 35000, 7500 },
+			{ "srifle_DMR_03_tan_AMS_LP_F", "Mk1 AMS", 40000, 7500 }
         };
         mags[] = {
 			{ "20Rnd_762x51_Mag", "", 45 }			
@@ -337,16 +347,15 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 7, "Du musst Polizeirat sein!" };
         items[] = {
-			{ "arifle_MX_SW_Black_F", "", 100000, 7500 },
-			{ "arifle_MX_SW_Black_Hamr_pointer_F", "", 150000, 7500 },
-			{ "MMG_02_black_RCO_BI_F", "", 400000, 7500 }
+			{ "arifle_MX_SW_Black_F", "", 50000, 7500 },
+			{ "arifle_MX_SW_Black_Hamr_pointer_F", "MX SW Hamr", 50000, 7500 },
+			{ "MMG_02_black_RCO_BI_F", "", 60000, 7500 }
         };
         mags[] = {
 			{ "100Rnd_65x39_caseless_mag_Tracer", "", 45 },
 			{ "130Rnd_338_Mag", "", 45 }
         };		
     };
-
 
     //Medic Shops
     class med_basic {
@@ -356,11 +365,14 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
             { "ItemGPS", "", 100, 45 },
-            { "Binocular", "", 150, -1 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
             { "Medikit", "", 500, 450 },
-            { "NVGoggles", "", 1200, 980 }
+            { "NVGoggles", "", 1200, 980 },
+            { "Chemlight_red", "", 150, -1 },
+            { "Chemlight_yellow", "", 150, 50 },
+            { "Chemlight_green", "", 150, 50 },
+            { "Chemlight_blue", "", 150, 50 }
         };
         mags[] = {
 		};
