@@ -38,7 +38,7 @@ class Life_Settings {
     house_limit = 2; //Maximum amount of houses a player can own.
 
     /* Gang related settings */
-    gang_price = 5000000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
+    gang_price = 2500000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
     gang_upgradeBase = 1000000; //The base cost for upgrading slots in a gang
     gang_upgradeMultiplier = 2.5; //Not sure if in use?
 
