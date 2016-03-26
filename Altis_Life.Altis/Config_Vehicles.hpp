@@ -85,9 +85,13 @@ class CarShops {
         side = "cop";
         vehicles[] = {
             { "B_Quadbike_01_F", 2500, { "" }, { "", "", -1 } },
-            { "C_Offroad_01_F", 5000, { "" }, { "life_coplevel", "SCALAR", 2 } },
-            { "C_SUV_01_F", 20000, { "" }, { "life_coplevel", "SCALAR", 3 } },
-            { "C_Hatchback_01_sport_F", 30000, { "" }, { "life_coplevel", "SCALAR", 4 } }
+            { "C_Offroad_01_F", 5000, { "" }, { "life_coplevel", "SCALAR", 1 } },
+            { "C_SUV_01_F", 20000, { "" }, { "life_coplevel", "SCALAR", 2 } },
+            { "C_Hatchback_01_sport_F", 30000, { "" }, { "life_coplevel", "SCALAR", 3 } },
+			{ "B_MRAP_01_F", 40000, { "" }, { "life_coplevel", "SCALAR", 4 } }, // Hunter
+			{ "O_MRAP_02_F", 40000, { "" }, { "life_coplevel", "SCALAR", 4 } }, // Ifrit
+			{ "I_MRAP_03_F", 40000, { "" }, { "life_coplevel", "SCALAR", 4 } }, // Strider
+			{ "B_MRAP_01_hmg_F", 30000, { "" }, { "life_coplevel", "SCALAR", 5 } } // Hunter HMG
         };
     };
 
@@ -104,9 +108,9 @@ class CarShops {
     class cop_air {
         side = "cop";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 75000, { "cAir" }, { "", "", -1 } },
-            { "B_Heli_Transport_01_F", 200000, { "cAir" }, { "life_coplevel", "SCALAR", 5 } },
-       	    { "I_Heli_light_03_unarmed_F", 120000, { "cAir" }, { "life_coplevel", "SCALAR", 3 } }
+            { "B_Heli_Light_01_F", 75000, { "cAir" }, { "", "", 2 } }, // Hummingbird
+       	    { "I_Heli_light_03_unarmed_F", 120000, { "cAir" }, { "life_coplevel", "SCALAR", 3 } }, // Hellcat EMP
+			{ "B_Heli_Transport_01_F", 200000, { "cAir" }, { "life_coplevel", "SCALAR", 4 } } // Ghost Hawk Transport
         };
     };
 
@@ -205,7 +209,13 @@ class LifeCfgVehicles {
         garageSell[] = { 0, 85000, 0, 0 };
         insurance = 16000;
         chopShop = 45000;
-        textures[] = {};
+        textures[] = {
+			{ "Polizei", "cop", {
+                "textures\gh_polizei_front.paa",
+                "textures\gh_polizei_hinten.paa",
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } }
+		};
     };
 
     class B_MRAP_01_hmg_F {
@@ -394,7 +404,12 @@ class LifeCfgVehicles {
         garageSell[] = { 65000, 0, 0, 0 };
         insurance = 2500;
         chopShop = 75000;
-        textures[] = { };
+        textures[] = { 
+            { "Polizei", "cop", {
+                "textures\Ifrit_Polizei4_Front.paa",
+                "textures\Ifrit_Polizei4_hinten.paa"
+            } }
+		};
     };
 
     class I_MRAP_03_F {
@@ -403,7 +418,11 @@ class LifeCfgVehicles {
         garageSell[] = { 3500, 0, 0, 0 };
         insurance = 2500;
         chopShop = 5000;
-        textures[] = { };
+        textures[] = {
+            { "Polizei", "cop", {
+                "textures\polizei_strider.jpg"
+            } }
+		};
     };
 
     class C_Offroad_01_F {
@@ -539,7 +558,7 @@ class LifeCfgVehicles {
                 "\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa"
             } },
             { "Polizei", "cop", {
-                "textures\cop_quad.paa"
+                "textures\quadbike_01_co.jpg"
             } },
             { "Digi Desert", "reb", {
                 "\A3\Soft_F\Quadbike_01\Data\quadbike_01_opfor_co.paa"
@@ -698,6 +717,9 @@ class LifeCfgVehicles {
             } },
             { "Johanniter", "med", {
                 "textures\medic_suv.jpg"
+            } },
+            { "Battlefield", "civ", {
+                "textures\Battlefield_LowTexture.jpg"
             } }
         };
     };
@@ -764,7 +786,11 @@ class LifeCfgVehicles {
             { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
-            } }
+            } },
+            { "Polizei", "cop", {
+                "textures\hunter_polizei_front1.paa",
+                "textures\hunter_polizei_hinten1.paa"
+            } },			
         };
     };
 
@@ -789,7 +815,7 @@ class LifeCfgVehicles {
         chopShop = 125000;
         textures[] = {
             { "Polizei", "cop", {
-                "textures\polizei_hummingbird.paa"
+                "textures\polizei_humming.paa"
             } },
             { "Red Bull", "civ", {
                 "textures\civ_hummingbird_redbull.jpg"
@@ -851,7 +877,13 @@ class LifeCfgVehicles {
             } },
             { "ADAC", "med", {
                 "textures\adac_orca.paa"
-            } }
+            } },
+            { "Notarzt", "med", {
+                "textures\orca_notarzt.paa"
+            } },
+            { "Polizei", "cop", {
+                "textures\orca_polizei.paa"
+            } },
         };
     };
 
