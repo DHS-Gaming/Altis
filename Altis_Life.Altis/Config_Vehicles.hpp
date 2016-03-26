@@ -108,7 +108,7 @@ class CarShops {
     class cop_air {
         side = "cop";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 75000, { "cAir" }, { "", "", 2 } }, // Hummingbird
+            { "B_Heli_Light_01_F", 75000, { "cAir" }, { "life_coplevel", "SCALAR", 2 } }, // Hummingbird
        	    { "I_Heli_light_03_unarmed_F", 120000, { "cAir" }, { "life_coplevel", "SCALAR", 3 } }, // Hellcat EMP
 			{ "B_Heli_Transport_01_F", 200000, { "cAir" }, { "life_coplevel", "SCALAR", 4 } } // Ghost Hawk Transport
         };
