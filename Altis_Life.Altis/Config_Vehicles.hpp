@@ -41,16 +41,16 @@ class CarShops {
     class med_shop {
         side = "med";
         vehicles[] = {
-			{ "C_Van_01_box_F", 20000, { "" }, { "", "", -1 } },
+			{ "C_Van_01_box_F", 10000, { "" }, { "", "", -1 } },
 			{ "C_Offroad_01_F", 20000, { "" }, { "", "", -1 } },
-			{ "C_SUV_01_F", 20000, { "" }, { "", "", -1 } }
+			{ "C_SUV_01_F", 30000, { "" }, { "life_mediclevel", "SCALAR", 3 } }
         };
     };
 
     class med_air_hs {
         side = "med";
         vehicles[] = {
-            { "C_Heli_light_01_red_F", 7500, { "mAir" }, { "life_mediclevel", "SCALAR", 3 } },
+            { "C_Heli_light_01_red_F", 75000, { "mAir" }, { "life_mediclevel", "SCALAR", 3 } },
             { "O_Heli_Light_02_unarmed_F", 750000, { "mAir" }, { "life_mediclevel", "SCALAR", 4 } }
         };
     };

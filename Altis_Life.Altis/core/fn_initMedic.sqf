@@ -87,8 +87,6 @@ if(EQUAL(LIFE_SETTINGS(getNumber,"allow_medic_player_thirdperson"),0)) then
 		// macht jeden Rucksack komplett rot
 		//
 		(backpackContainer player) setObjectTextureGlobal [0, "#(rgb,8,8,3)color(1,0,0,1)"];
-		
-		player setObjectTextureGlobal [0, "#(rgb,8,8,3)color(1,1,1,1)"];
 
 		player setObjectTextureGlobal [0, "textures\berlin-medic-uniform1024.jpg"];
 
