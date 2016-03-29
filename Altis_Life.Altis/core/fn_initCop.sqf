@@ -29,6 +29,43 @@ player setVariable["rank",(FETCH_CONST(life_coplevel)),true];
 //
 // XOXO Streifendienstuniform
 //
+
+if (uniform player == "U_Rangemaster") then {
+	player setObjectTextureGlobal [0, "textures\cop_uniform.jpg"];
+	
+	if ((FETCH_CONST(life_coplevel)) == 0) then {
+		player setObjectTextureGlobal [0, "textures\Cop_Uniform_1.paa"];
+	};
+		
+	if ((FETCH_CONST(life_coplevel)) == 1) then {
+		player setObjectTextureGlobal [0, "textures\Cop_Uniform_1.paa"];
+	};
+
+	if ((FETCH_CONST(life_coplevel)) == 2) then {
+		player setObjectTextureGlobal [0, "textures\Cop_Uniform_2.paa"];
+	};
+
+	if ((FETCH_CONST(life_coplevel)) == 3) then {
+		player setObjectTextureGlobal [0, "textures\Cop_Uniform_3.paa"];
+	};
+
+	if ((FETCH_CONST(life_coplevel)) == 4) then {
+		player setObjectTextureGlobal [0, "textures\Cop_Uniform_4.paa"];
+	};
+
+	if ((FETCH_CONST(life_coplevel)) == 5) then {
+		player setObjectTextureGlobal [0, "textures\Cop_Uniform_5.paa"];
+	};
+
+	if ((FETCH_CONST(life_coplevel)) == 6) then {
+		player setObjectTextureGlobal [0, "textures\Cop_Uniform_6.paa"];
+	};
+	
+	if ((FETCH_CONST(life_coplevel)) == 7) then {
+		player setObjectTextureGlobal [0, "textures\Cop_Uniform_7.paa"];
+	};	
+};
+
 [] spawn {
 	while {true} do {
 		waitUntil {uniform player == "U_Rangemaster"};
@@ -36,9 +73,11 @@ player setVariable["rank",(FETCH_CONST(life_coplevel)),true];
 		//
 		// macht jeden Rucksack komplett unsichtbar
 		//
-		(backpackContainer player) setObjectTextureGlobal [0,""];
-
-		player setObjectTextureGlobal [0, "#(rgb,8,8,3)color(1,0,0,0)"];
+		
+		//
+		// (backpackContainer player) setObjectTextureGlobal [0,""];
+		// player setObjectTextureGlobal [0, "#(rgb,8,8,3)color(1,0,0,0)"];
+		//
 		
 		if ((FETCH_CONST(life_coplevel)) == 0) then {
 			player setObjectTextureGlobal [0, "textures\Cop_Uniform_1.paa"];
@@ -76,6 +115,22 @@ player setVariable["rank",(FETCH_CONST(life_coplevel)),true];
 	};
 };
 
+if (uniform player == "U_B_CombatUniform_mcam_worn") then {
+	player setObjectTextureGlobal [0, "textures\Cop_MEK_Uniform.paa"];
+};
+
+if ((FETCH_CONST(life_coplevel)) == 5) then {
+	player setObjectTextureGlobal [0, "textures\Cop_MEK_Uniform_5.paa"];
+};
+
+if ((FETCH_CONST(life_coplevel)) == 6) then {
+	player setObjectTextureGlobal [0, "textures\Cop_MEK_Uniform_6.paa"];
+};
+	
+if ((FETCH_CONST(life_coplevel)) == 7) then {
+	player setObjectTextureGlobal [0, "textures\Cop_MEK_Uniform_7.paa"];
+};
+
 //
 // MEK Einsatzuniform
 //
@@ -86,9 +141,11 @@ player setVariable["rank",(FETCH_CONST(life_coplevel)),true];
 		//
 		// macht jeden Rucksack komplett unsichtbar
 		//
-		(backpackContainer player) setObjectTextureGlobal [0,""];
 		
-		player setObjectTextureGlobal [0, "#(rgb,8,8,3)color(1,0,0,0)"];
+		//
+		// (backpackContainer player) setObjectTextureGlobal [0,""];
+		// player setObjectTextureGlobal [0, "#(rgb,8,8,3)color(1,0,0,0)"];
+		//
 
 		if ((FETCH_CONST(life_coplevel)) == 0) then {
 			player setObjectTextureGlobal [0, "textures\Cop_MEK_Uniform.paa"];
