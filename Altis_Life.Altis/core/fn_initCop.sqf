@@ -7,7 +7,7 @@
 	Cop Initialization file.
 */
 private "_end";
-player addRating 9999999;
+player addRating -10000;
 waitUntil {!(isNull (findDisplay 46))};
 _end = false;
 
@@ -183,6 +183,14 @@ if ((FETCH_CONST(life_coplevel)) == 7) then {
 	};
 };
 
+[] spawn {
+	while {true} do {
+		player addRating -10000;
+		sleep 1;
+		player addRating -9999;
+		sleep 1;
+	};
+};
 
 [] call life_fnc_spawnMenu;
 
