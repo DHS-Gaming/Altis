@@ -3393,7 +3393,7 @@ class Mission {
 					special="NONE";
 					id=208;
 					side="GUER";
-					vehicle="B_medic_F";
+					vehicle="I_soldier_UAV_F";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -3407,7 +3407,7 @@ class Mission {
 					special="NONE";
 					id=209;
 					side="GUER";
-					vehicle="B_medic_F";
+					vehicle="I_soldier_UAV_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="medic_3";
@@ -3420,7 +3420,7 @@ class Mission {
 					special="NONE";
 					id=210;
 					side="GUER";
-					vehicle="B_medic_F";
+					vehicle="I_soldier_UAV_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="medic_4";
@@ -3433,7 +3433,7 @@ class Mission {
 					special="NONE";
 					id=211;
 					side="GUER";
-					vehicle="B_medic_F";
+					vehicle="I_soldier_UAV_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="medic_2";
@@ -4488,6 +4488,9 @@ class Mission {
 			};
 		};
 
+		//
+		// oben am Helipad Athira Krankenhaus
+		//
 		class Item130
 		{
 			side="WEST";
@@ -4498,7 +4501,7 @@ class Mission {
 				{
 					position[]={14312.836,26.803869,18623.297};
 					azimut=160;
-					offsetY=20;
+					offsetY=20.2;
 					special="NONE";
 					id=262;
 					side="WEST";
@@ -4512,9 +4515,34 @@ class Mission {
 		};
 		
 		//
+		// Hinten am Helipad fuer gekaufte Helis, Athira Krankenhaus
+		//
+		class Item131
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14364.685,28.150429,18646.338};
+					azimut=160;
+					special="NONE";
+					id=262;
+					side="WEST";
+					vehicle="B_RangeMaster_F";
+					leader=1;
+					skill=0.60000002;
+					text="athira_hospital_helipad_npc_002";
+					init="  this enableSimulation false; this allowDamage false; removeVest this; removeHeadgear this;   this addAction[ 	format[ 		""%1 ($%2)"", 		localize (getText(missionConfigFile >> ""Licenses"" >> ""mAir"" >> ""displayName"")), 		[(getNumber(missionConfigFile >> ""Licenses"" >> ""mAir"" >> ""price""))] call life_fnc_numberText 	], 	life_fnc_buyLicense, 	""mAir"", 	0, 	false, 	false, 	"""", 	' !license_med_mAir && playerSide == independent ' ];  this addAction[ 	localize""STR_MAR_EMS_Item_Shop"", 	life_fnc_weaponShopMenu, 	""med_basic"" ];  this addAction[ 	localize""STR_MAR_EMS_Clothing_Shop"", 	life_fnc_clothingMenu, 	""med_clothing"" ];  this addAction[ 	localize""STR_MAR_Helicopter_Shop"", 	life_fnc_vehicleShopMenu, 	[""med_air_hs"",independent,""medic_spawn_4_heli_buy"",""med"",""Athira General Hospital""] ];  this addAction[ 	localize""STR_MAR_Helicopter_Garage"", 	{ 		[getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2]; 		createDialog ""Life_impound_menu""; 		disableSerialization; 		ctrlSetText[2802,""Fetching Vehicles....""]; 		life_garage_sp = ""medic_spawn_4_heli_garage""; 		life_garage_type = ""Air""; 	}, 	"""", 	0, 	false, 	false, 	"""", 	'playerSide == independent ' ];  this addAction[ 	localize""STR_MAR_Store_vehicle_in_Garage"", 	life_fnc_storeVehicle, 	"""", 	0, 	false, 	false, 	"""", 	'!life_garage_store' ];  this addAction[ 	localize""STR_Shops_Market"", 	life_fnc_virt_menu, 	""med_market"" ];  this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];  this setObjectTextureGlobal [0,""textures\medic_uniform.jpg""];  waitUntil {uniform this == ""U_Rangemaster""};  this setObjectTextureGlobal [0,""textures\medic_uniform.jpg""];   ";
+				};
+			};
+		};
+		
+		//
 		// XOXO Class Group Item Counter
 		//
-		items=131;
+		items=132;
 	};
 
 	//

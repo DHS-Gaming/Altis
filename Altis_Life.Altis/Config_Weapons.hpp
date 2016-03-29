@@ -380,7 +380,8 @@ class WeaponShops {
 			{ "SmokeShellYellow", "", 150, 50 },
 			{ "SmokeShellPurple", "", 150, 50 },
 			{ "SmokeShellBlue", "", 150, 50 },
-			{ "SmokeShellOrange", "", 150, 50 }
+			{ "SmokeShellOrange", "", 150, 50 },
+			{ "I_UavTerminal", "", 150, 50 }
         };
         mags[] = {
 		};

@@ -11,7 +11,7 @@ _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
 player addUniform "U_Rangemaster";
-player addBackpack "B_Bergen_blk";
+player addBackpack "B_Carryall_oucamo";
 
 (backpackContainer player) setObjectTextureGlobal [0, "#(rgb,8,8,3)color(1,0,0,1)"];
 
@@ -29,8 +29,10 @@ player addItem "FirstAidKit";
 player addItem "FirstAidKit";
 
 player addItem "NVGoggles_OPFOR";
+player assignItem "NVGoggles_OPFOR";
 
 player addItem "Rangefinder";
+player assignItem "Rangefinder";
 
 player addItem "ItemMap";
 player assignItem "ItemMap";
@@ -43,6 +45,8 @@ player assignItem "ItemWatch";
 
 player addItem "ItemGPS";
 player assignItem "ItemGPS";
+
+player addItem "I_UavTerminal";
 
 player addItem "Chemlight_red";
 player addItem "Chemlight_red";
