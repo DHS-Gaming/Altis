@@ -372,7 +372,15 @@ class WeaponShops {
             { "Chemlight_red", "", 150, -1 },
             { "Chemlight_yellow", "", 150, 50 },
             { "Chemlight_green", "", 150, 50 },
-            { "Chemlight_blue", "", 150, 50 }
+            { "Chemlight_blue", "", 150, 50 },
+			{ "SmokeShell", "", 150, 50 },
+			{ "SmokeShellRed", "", 150, 50 },
+			{ "SmokeShellGreen", "", 150, 50 },
+			{ "SmokeShellYellow", "", 150, 50 },
+			{ "SmokeShellYellow", "", 150, 50 },
+			{ "SmokeShellPurple", "", 150, 50 },
+			{ "SmokeShellBlue", "", 150, 50 },
+			{ "SmokeShellOrange", "", 150, 50 }
         };
         mags[] = {
 		};

@@ -25,12 +25,6 @@ player addItem "Medikit";
 player addItem "Toolkit";
 player addItem "Toolkit";
 
-player addItem "Chemlight_red";
-player addItem "Chemlight_red";
-player addItem "Chemlight_red";
-player addItem "Chemlight_red";
-player addItem "Chemlight_red";
-
 player addItem "FirstAidKit";
 player addItem "FirstAidKit";
 
@@ -49,6 +43,18 @@ player assignItem "ItemWatch";
 
 player addItem "ItemGPS";
 player assignItem "ItemGPS";
+
+player addItem "Chemlight_red";
+player addItem "Chemlight_red";
+player addItem "Chemlight_red";
+player addItem "Chemlight_red";
+player addItem "Chemlight_red";
+
+player addItem "SmokeShellRed";
+player addItem "SmokeShellRed";
+player addItem "SmokeShellRed";
+player addItem "SmokeShellRed";
+player addItem "SmokeShellRed";
 
 [] call life_fnc_playerSkins;
 [] call life_fnc_saveGear;
