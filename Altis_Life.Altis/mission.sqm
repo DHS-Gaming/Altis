@@ -8265,7 +8265,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Polizei Kavala";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item326
@@ -8276,7 +8276,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Kavala Markt";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item327
@@ -8287,7 +8287,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Kavala Innenstadt";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item328
@@ -8298,7 +8298,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Zaros";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item329
@@ -8309,7 +8309,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Athira Autohaus";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item330
@@ -8320,7 +8320,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Flughafen";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item331
@@ -8331,7 +8331,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Pyrgos";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item332
@@ -8343,7 +8343,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_01_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Sofia";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item333
@@ -8354,7 +8354,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Molos";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item334
@@ -8365,7 +8365,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Panagia";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item335
@@ -8376,7 +8376,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Panochori";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item336
@@ -8387,7 +8387,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Agios Dionysios";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item337
@@ -8398,7 +8398,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Syrta";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item338
@@ -8409,7 +8409,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Tankstelle Paros";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item339
@@ -8420,7 +8420,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Neochori";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item340
@@ -8431,7 +8431,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Telos";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item341
@@ -8442,7 +8442,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Tankstelle Stadion Nord";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item342
@@ -9095,7 +9095,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Kavala Krankenhaus";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item402
@@ -9106,7 +9106,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Flughafen Krankenhaus";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item403
@@ -9117,7 +9117,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Pyrgos Krankenhaus";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item404
@@ -9128,7 +9128,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Air HQ";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item405
@@ -9243,7 +9243,7 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
-			text="ATM";
+			text="ATM Polizei Athira";
 			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item416
@@ -9255,8 +9255,8 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_01_F";
 			skill=0.60000002;
-			text="ATM";
-			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
+			text="ATM Gang Hideout 1";
+			init="this enableSimulation false; this allowDamage true; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item417
 		{
@@ -9587,8 +9587,8 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_01_F";
 			skill=0.60000002;
-			text="ATM";
-			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
+			text="ATM Gang Hideout 2";
+			init="this enableSimulation false; this allowDamage true; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item447
 		{
@@ -9920,8 +9920,8 @@ class Mission {
 			side="EMPTY";
 			vehicle="Land_Atm_01_F";
 			skill=0.60000002;
-			text="ATM";
-			init="this enableSimulation false; this allowDamage true; this addAction[""ATM ausrauben"",life_fnc_robShops]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
+			text="ATM Gang Hideout 3";
+			init="this enableSimulation false; this allowDamage true; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item477
 		{
