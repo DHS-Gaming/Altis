@@ -31,7 +31,7 @@ if(_rip) then
 {
     while{true} do
     {
-        sleep 2;
+        sleep 3;
 		
         _cP = _cP + 0.01;
         _progress progressSetPosition _cP;

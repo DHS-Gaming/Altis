@@ -261,10 +261,10 @@ class WeaponShops {
     };
 
     class cop_pk {
-        name = "Altis Kommissar Shop";
+        name = "Altis Ordnungsamt";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "Du musst Kommissar sein!" };
+        level[] = { "life_coplevel", "SCALAR", 2, "Du musst Rang 2 sein!" };
         items[] = {
 			{ "arifle_sdar_F", "Taser Rifle", 10000, 7500 }
         };
@@ -274,10 +274,10 @@ class WeaponShops {
     };
 
     class cop_pok {
-        name = "Altis Oberkommissar Shop";
+        name = "Altis Polizeimeister Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "Du musst Oberkommissar sein!" };
+        level[] = { "life_coplevel", "SCALAR", 3, "Du musst Rang 3 sein!" };
         items[] = {
 			{ "arifle_MXC_Black_F", "", 20000, 7500 }
         };
@@ -288,10 +288,10 @@ class WeaponShops {
     };
 
     class cop_phk {
-        name = "Altis Hauptkommissar Shop";
+        name = "Altis POM Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 4, "Du musst Hauptkommissar sein!" };
+        level[] = { "life_coplevel", "SCALAR", 4, "Du musst Rang 4 sein!" };
         items[] = {
 			{ "arifle_MX_Black_F", "", 30000, 7500 },
 			{ "muzzle_snds_H", "SD 6.5MM", 10000, 500 }
@@ -302,10 +302,10 @@ class WeaponShops {
     };
 
     class cop_ephk {
-        name = "Altis Erster Hauptkommissar Shop";
+        name = "Kommissar(5) Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 5, "Du musst Erster Hauptkommissar sein!" };
+        level[] = { "life_coplevel", "SCALAR", 5, "Du musst Rang 5 sein!" };
         items[] = {
 			{ "arifle_MXM_Black_F", "", 40000, 7500 },
 			{ "arifle_MXM_DMS_LP_BI_snds_F", "MXM DMS SD", 46000, 7500 },
@@ -324,10 +324,10 @@ class WeaponShops {
     };
 
     class cop_pra {
-        name = "Altis Ratanwärter Shop";
+        name = "Kommissar(6) Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 6, "Du musst Ratanwärter sein!" };
+        level[] = { "life_coplevel", "SCALAR", 6, "Du musst Rang 6 sein!" };
         items[] = {
 			{ "srifle_DMR_03_F", "", 30000, 7500 },
 			{ "srifle_DMR_03_ACO_F", "Mk1 ACO", 35000, 7500 },
@@ -342,10 +342,10 @@ class WeaponShops {
     };
 
     class cop_pr {
-        name = "Altis Polizeirat Shop";
+        name = "Polizeileitung Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 7, "Du musst Polizeirat sein!" };
+        level[] = { "life_coplevel", "SCALAR", 7, "Du musst Rang 7 sein!" };
         items[] = {
 			{ "arifle_MX_SW_Black_F", "", 50000, 7500 },
 			{ "arifle_MX_SW_Black_Hamr_pointer_F", "MX SW Hamr", 50000, 7500 },
