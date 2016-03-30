@@ -211,7 +211,7 @@ class VirtualItems {
         weight = 1;
         buyPrice = 150;
         sellPrice = 75;
-        illegal = false;
+        illegal = true;
         edible = -1;
         icon = "icons\ico_lockpick.paa";
     };

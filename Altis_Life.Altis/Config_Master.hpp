@@ -109,7 +109,9 @@ class Life_Settings {
     Pump_service = true; //Allow users to use pump service on the map. Default = false
 
     /* Skins settings */
-    civ_skins = false; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
+    civ_skins = true;
+	//Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder.
+	//(It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
 
     /* Car-shop Settings */
     vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_G_Offroad_01_armed_F", "B_Boat_Armed_01_minigun_F" };

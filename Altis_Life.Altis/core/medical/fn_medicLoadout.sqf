@@ -10,11 +10,7 @@ private["_handle"];
 _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
-// player addUniform "U_Rangemaster";
-// player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
-
 player addBackpack "B_Carryall_oucamo";
-(backpackContainer player) setObjectTextureGlobal [0, "#(rgb,8,8,3)color(1,0,0,1)"];
 
 player addHeadgear "H_Cap_blu";
 player addGoggles "G_Tactical_Clear";
@@ -28,9 +24,6 @@ player addItem "FirstAidKit";
 player addItem "NVGoggles_OPFOR";
 player assignItem "NVGoggles_OPFOR";
 
-player addItem "Rangefinder";
-player assignItem "Rangefinder";
-
 player addItem "ItemMap";
 player assignItem "ItemMap";
 
@@ -43,11 +36,11 @@ player assignItem "ItemWatch";
 player addItem "ItemGPS";
 player assignItem "ItemGPS";
 
-player addItem "Chemlight_red";
-player addItem "Chemlight_red";
-
-player addItem "SmokeShellRed";
-player addItem "SmokeShellRed";
+[true,"waterBottle",2] call life_fnc_handleInv;
+[true,"apple",2]       call life_fnc_handleInv;
+[true,"peach",2]       call life_fnc_handleInv;
+[true,"fuelFull",2]    call life_fnc_handleInv;
+[true,"lockpick",8]    call life_fnc_handleInv;
 
 [] call life_fnc_playerSkins;
 [] call life_fnc_saveGear;
