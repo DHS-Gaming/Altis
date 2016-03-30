@@ -51,8 +51,7 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "C_Heli_light_01_red_F", 75000, { "mAir" }, { "life_mediclevel", "SCALAR", 3 } },
-            { "O_Heli_Light_02_unarmed_F", 750000, { "mAir" }, { "life_mediclevel", "SCALAR", 4 } },
-			{ "I_UAV_01_F", 10000, { "mAir" }, { "life_mediclevel", "SCALAR", 4 } }
+            { "O_Heli_Light_02_unarmed_F", 750000, { "mAir" }, { "life_mediclevel", "SCALAR", 4 } }
         };
     };
 
@@ -948,11 +947,11 @@ class LifeCfgVehicles {
     };
 
 	class I_UAV_01_F {
-		vItemSpace = 100;
+		vItemSpace = 10;
         storageFee[] = { 25000, 0, 0, 0 };
         garageSell[] = { 65000, 0, 0, 0 };
         insurance = 2500;
-        chopShop = 125000;
+        chopShop = 1250;
         textures[] = {};
 	};
 };

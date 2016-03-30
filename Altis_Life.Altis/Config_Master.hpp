@@ -5,19 +5,53 @@
     Master settings for various features and functionality
 */
 class Life_Settings {
-    /* Persistent Settings */
+	
+    /* Persistence Settings */
     save_civ_weapons = true; //Allow civilians to save weapons on them?
     save_virtualItems = true; //Save Virtual items (all sides)?
     save_playerStats = true; //Save food & water (all sides)?
     save_veh_virtualItems = false; //Save Virtual items for vehicles (all sides)?
     save_veh_gear = true; //Save Gear for vehicles (all sides)?
 
-    /* Clothing related settings */
-    clothing_box = true; //true = preview inside a black box.  false = preview on map.
-    clothing_masks[] = { "H_Shemag_olive", "H_Shemag_khk", "H_Shemag_tan", "H_Shemag_olive_hs", "H_ShemagOpen_khk", "H_ShemagOpen_tan", "G_Balaclava_blk", "G_Balaclava_combat", "G_Balaclava_lowprofile", "G_Balaclava_oli", "G_Bandanna_aviator", "G_Bandanna_beast", "G_Bandanna_blk", "G_Bandanna_khk", "G_Bandanna_oli", "G_Bandanna_shades", "G_Bandanna_sport", "G_Bandanna_tan", "U_O_GhillieSuit", "U_I_GhillieSuit", "U_B_GhillieSuit", "H_RacingHelmet_1_black_F", "H_RacingHelmet_1_red_F", "H_RacingHelmet_1_white_F", "H_RacingHelmet_1_blue_F", "H_RacingHelmet_1_yellow_F", "H_RacingHelmet_1_green_F", "H_RacingHelmet_1_F", "H_RacingHelmet_2_F", "H_RacingHelmet_3_F", "H_RacingHelmet_4_F" };
-
     /* Cop related settings */
     cops_online_min = 2; //minimum cops online for robbing a bank
+	
+    /* Clothing related settings */
+    clothing_box = true; //true = preview inside a black box.  false = preview on map.
+
+    clothing_masks[] = {
+		"H_Shemag_olive",
+		"H_Shemag_khk",
+		"H_Shemag_tan",
+		"H_Shemag_olive_hs",
+		"H_ShemagOpen_khk",
+		"H_ShemagOpen_tan",
+		"G_Balaclava_blk",
+		"G_Balaclava_combat",
+		"G_Balaclava_lowprofile",
+		"G_Balaclava_oli",
+		"G_Bandanna_aviator",
+		"G_Bandanna_beast",
+		"G_Bandanna_blk",
+		"G_Bandanna_khk",
+		"G_Bandanna_oli",
+		"G_Bandanna_shades",
+		"G_Bandanna_sport",
+		"G_Bandanna_tan",
+		"U_O_GhillieSuit",
+		"U_I_GhillieSuit",
+		"U_B_GhillieSuit",
+		"H_RacingHelmet_1_black_F",
+		"H_RacingHelmet_1_red_F",
+		"H_RacingHelmet_1_white_F",
+		"H_RacingHelmet_1_blue_F",
+		"H_RacingHelmet_1_yellow_F",
+		"H_RacingHelmet_1_green_F",
+		"H_RacingHelmet_1_F",
+		"H_RacingHelmet_2_F",
+		"H_RacingHelmet_3_F",
+		"H_RacingHelmet_4_F"
+	};
 
     /* Medic related settings*/
     allow_medic_weapons = true; // true allows medics to hold/use weapons - false disallows
@@ -26,13 +60,13 @@ class Life_Settings {
 	// if you set these values to false then three additional vms with while(true) will be spawned on the clients running arma3
 	// be aware that it can induce load on the client of the player who is playing the medic
 	//
-	allow_medic_autohover = true;
-	allow_medic_vehicle_thirdperson = true;
+	allow_medic_autohover = false;
+	allow_medic_vehicle_thirdperson = false;
 	allow_medic_player_thirdperson = true;
 
     /* Revive system settings */
     revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 15000; //Revive fee that players have to pay and medics / EMS are rewarded
+    revive_fee = 20000; //Revive fee that players have to pay and medics / EMS are rewarded
 
     /* House related settings */
     house_limit = 2; //Maximum amount of houses a player can own.
@@ -59,7 +93,7 @@ class Life_Settings {
 
     /* Paycheck Amount */
     paycheck_cop = 9000; //Payment for cops
-    paycheck_civ = 2500; //Payment for civillians
+    paycheck_civ = 3000; //Payment for civillians
     paycheck_med = 4500; //Payment for medics
 
     /* Federal Reserve settings */
@@ -88,7 +122,6 @@ class Life_Settings {
     crimes[] = {
         {"STR_Crime_187V","65000","187V"},
         {"STR_Crime_187","200000","187"},
-        {"STR_Crime_901","45000","901"},
         {"STR_Crime_215","20000","215"},
         {"STR_Crime_213","100000","213"},
         {"STR_Crime_211","10000","211"},

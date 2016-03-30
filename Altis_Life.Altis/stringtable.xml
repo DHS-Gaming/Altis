@@ -5642,7 +5642,16 @@
       <Original>You have received a bonus of $%1</Original>
       <German>Du hast einen Bonus in Höhe von $%1 erhalten</German>
     </Key>
+    <Key ID="STR_FSM_NumberOfCopsOnline">
+      <Original>There are currently %1 cops online.</Original>
+      <German>Es sind %1 Polizisten im Dienst.</German>
+    </Key>
+    <Key ID="STR_FSM_OneCopOnline">
+      <Original>There is currently %1 cop online.</Original>
+      <German>Es ist %1 Polizist im Dienst.</German>
+    </Key>	
   </Package>
+  
   <Package name="Fuel_Pump">
     <Key ID="STR_Action_Pump">
       <Original>Refuel Vehicle</Original>
@@ -6326,15 +6335,11 @@
   <Package name="Crimes">
     <Key ID="STR_Crime_187V">
       <Original>Vehicular Manslaughter</Original>
-      <German>Mord mit FZ</German>
+      <German>Totschlag (FZ)</German>
     </Key>
     <Key ID="STR_Crime_187">
       <Original>Manslaughter</Original>
-      <German>Mord</German>
-    </Key>
-    <Key ID="STR_Crime_901">
-      <Original>Escaping Jail</Original>
-      <German>Gefängnisausbruch</German>
+      <German>Totschlag</German>
     </Key>
     <Key ID="STR_Crime_215">
       <Original>Attempted Auto Theft</Original>
@@ -6342,7 +6347,7 @@
     </Key>
     <Key ID="STR_Crime_213">
       <Original>Use of illegal explosives</Original>
-      <German>Benutzung illegaler Sprengstoffe</German>
+      <German>Benutzung von Sprengstoff</German>
     </Key>
     <Key ID="STR_Crime_211">
       <Original>Robbery</Original>
@@ -6362,11 +6367,11 @@
     </Key>
     <Key ID="STR_Crime_487">
       <Original>Grand Theft</Original>
-      <German>schwerer Diebstahl</German>
+      <German>Schwerer Diebstahl</German>
     </Key>
     <Key ID="STR_Crime_488">
       <Original>Petty Theft</Original>
-      <German>leichter Diebstahl</German>
+      <German>Leichter Diebstahl</German>
     </Key>
     <Key ID="STR_Crime_480">
       <Original>Hit and run</Original>
@@ -6416,12 +6421,12 @@
     <Key ID="STR_Crime_2">
       <Original>Driving in the wrong way of the street</Original>
       <French>Conduite sur le mauvais côté de la route</French>
-      <German>Fahren auf der falschen Straßenseite</German>
+      <German>Rechtsfahrgebot</German>
     </Key>
     <Key ID="STR_Crime_3">
       <Original>Not respecting the signalizations</Original>
       <French>Non respect des signalisations</French>
-      <German>Nicht beachten der Einsatzsignale</German>
+      <German>Einsatzsignale ignoriert</German>
     </Key>
     <Key ID="STR_Crime_4">
       <Original>Speeding</Original>
@@ -6456,7 +6461,7 @@
     <Key ID="STR_Crime_10">
       <Original>Grand Theft (Military Vehicle)</Original>
       <French>Vol de véhicule militaire</French>
-      <German>Fahrzeugdiebstahl von Staatseigentum</German>
+      <German>Schwerer Fahrzeugdiebstahl</German>
     </Key>
     <Key ID="STR_Crime_11">
       <Original>Armored Vehicle</Original>
@@ -6491,7 +6496,7 @@
     <Key ID="STR_Crime_17">
       <Original>Hiding face (Mask)</Original>
       <French>Cacher son visage</French>
-      <German>Vermummung</German>
+      <German>Vermummungsverbot</German>
     </Key>
     <Key ID="STR_Crime_18">
       <Original>Refuses to cooperate</Original>
@@ -6506,7 +6511,7 @@
     <Key ID="STR_Crime_20">
       <Original>Insulting a civilian</Original>
       <French>Insulte envers un civil</French>
-      <German>Beleidigung eines Zivilisten</German>
+      <German>Beleidigung</German>
     </Key>
     <Key ID="STR_Crime_21">
       <Original>Insulting a soldier</Original>
@@ -6526,12 +6531,12 @@
     <Key ID="STR_Crime_24">
       <Original>Killing of a civilian</Original>
       <French>Meurtre d'un civil</French>
-      <German>Mord an Zivilisten</German>
+      <German>Mord</German>
     </Key>
     <Key ID="STR_Crime_25">
       <Original>Killing of a soldier</Original>
       <French>Meurtre d'un militaire</French>
-      <German>Mord an Polizisten</German>
+      <German>Polizistenmord</German>
     </Key>
 	</Package>
 </Project>

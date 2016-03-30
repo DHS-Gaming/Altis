@@ -5,7 +5,8 @@
 	Description:
 	All survival? things merged into one thread.
 */
-private["_fnc_food","_fnc_water","_fnc_incremental_paycheck","_foodTime","_waterTime","_incrementalPaycheckTime","_currentIncrementalPaycheck","_bp","_walkDis","_lastPos","_curPos"];
+private["_fnc_food","_fnc_water","_fnc_incremental_paycheck","_fnc_cops_online","_foodTime","_waterTime","_incrementalPaycheckTime","_cops_online_time","_currentIncrementalPaycheck","_bp","_walkDis","_lastPos","_curPos","_numcops"];
+
 _fnc_food =  {
 	if(life_hunger < 2) then {player setDamage 1; hint localize "STR_NOTF_EatMSG_Death";}
 	else
@@ -94,10 +95,28 @@ _fnc_incremental_paycheck = {
 	};
 };
 
+_fnc_cops_online = {
+
+	_numcops = 0;
+
+	{
+		if (side _x == west) then {
+			_numcops = _numcops + 1;
+		};
+	} forEach playableUnits;
+	
+	if (_numcops == 1) then {
+		systemChat format[localize "STR_FSM_OneCopOnline",[_numcops] call life_fnc_numberText];
+	} else {
+		systemChat format[localize "STR_FSM_NumberOfCopsOnline",[_numcops] call life_fnc_numberText];
+	};
+};
+
 //Setup the time-based variables.
 _foodTime = time;
 _waterTime = time;
 _incrementalPaycheckTime = time;
+_cops_online_time = time;
 
 _walkDis = 0;
 _bp = "";
@@ -109,6 +128,14 @@ while {true} do {
 	/* Thirst / Hunger adjustment that is time based */
 	if((time - _waterTime) > 600) then {[] call _fnc_water; _waterTime = time;};
 	if((time - _foodTime) > 850) then {[] call _fnc_food; _foodTime = time;};
+	
+	//
+	// Display how many cops are online.
+	//
+	if ((time - _cops_online_time) > 30) then {
+		[] call _fnc_cops_online;
+		_cops_online_time = time;
+	};
 	
 	//
 	// XOXO incremental paycheck (this probably belongs into the finite state machine (core/fsm/client.fsm)of life client but lets see how it goes here...)
