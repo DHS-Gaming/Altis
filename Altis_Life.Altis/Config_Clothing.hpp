@@ -165,8 +165,8 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_C_Scientist", "Rettungshelfer", 5000, { "", "", -1 } },
-            { "U_C_Scientist", "Notarzt", 10000, { "", "", -1 } }
+            { "U_C_Scientist", "Rettungshelfer", 500, { "", "", -1 } },
+            { "U_C_Scientist", "Notarzt", 1000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },

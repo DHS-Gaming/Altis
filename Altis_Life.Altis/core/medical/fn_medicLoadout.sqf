@@ -10,8 +10,8 @@ private["_handle"];
 _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
-player addUniform "U_Rangemaster";
-player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
+// player addUniform "U_Rangemaster";
+// player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
 
 player addBackpack "B_Carryall_oucamo";
 (backpackContainer player) setObjectTextureGlobal [0, "#(rgb,8,8,3)color(1,0,0,1)"];
