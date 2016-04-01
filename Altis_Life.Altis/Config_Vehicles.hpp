@@ -410,6 +410,14 @@ class LifeCfgVehicles {
             { "Polizei", "cop", {
                 "textures\Ifrit_Polizei4_Front.paa",
                 "textures\Ifrit_Polizei4_hinten.paa"
+            } },
+			{ "Black", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+				"#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Black", "reb", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+				"#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
 		};
     };
@@ -423,6 +431,14 @@ class LifeCfgVehicles {
         textures[] = {
             { "Polizei", "cop", {
                 "textures\polizei_strider.jpg"
+            } },
+			{ "Black", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+				"#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Black", "reb", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+				"#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
 		};
     };
@@ -605,7 +621,8 @@ class LifeCfgVehicles {
                 "textures\civ_zamak_redbull_1.jpg"
             } },
             { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+				"#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
     };
@@ -622,7 +639,8 @@ class LifeCfgVehicles {
                 "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"
             } },
             { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+				"#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
     };
@@ -792,7 +810,15 @@ class LifeCfgVehicles {
             { "Polizei", "cop", {
                 "textures\hunter_polizei_front1.paa",
                 "textures\hunter_polizei_hinten1.paa"
-            } },			
+            } },	
+			{ "Black", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+				"#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Black", "reb", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+				"#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } }
         };
     };
 
@@ -805,6 +831,12 @@ class LifeCfgVehicles {
         textures[] = {
             { "ADAC", "med", {
                 "textures\adac_m900.paa"
+            } },
+			{ "Black", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Black", "reb", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
     };
@@ -886,6 +918,12 @@ class LifeCfgVehicles {
             { "Polizei", "cop", {
                 "textures\orca_polizei.paa"
             } },
+			{ "Black", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Black", "reb", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } }
         };
     };
 
@@ -906,6 +944,12 @@ class LifeCfgVehicles {
         textures[] = {
             { "Polizei", "cop", {
                 "textures\polizei_hellcat.jpg"
+            } },
+			{ "Black", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Black", "reb", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
     };
