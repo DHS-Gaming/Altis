@@ -22,7 +22,7 @@ class CarShops {
             { "C_Hatchback_01_F", 9500, { "driver" }, { "", "", -1 } },
             { "C_Offroad_01_F", 12500, { "driver" }, { "", "", -1 } },
             { "C_SUV_01_F", 30000, { "driver" }, { "", "", -1 } },
-			{ "SUV_01_base_black_F", 300000, { "driver" }, { "life_adminlevel", "SCALAR", 2 } },
+			{ "SUV_01_base_black_F", 0, { "driver" }, { "life_adminlevel", "SCALAR", 5 } },
             { "C_Hatchback_01_sport_F", 40000, { "driver" }, { "", "", -1 } },
             { "C_Van_01_transport_F", 45000, { "driver" }, { "", "", -1 } }
         };
@@ -335,7 +335,7 @@ class LifeCfgVehicles {
     };
 
     class B_G_Offroad_01_armed_F {
-        vItemSpace = 65;
+        vItemSpace = 80;
         storageFee[] = { 1500, 0, 0, 0 };
         garageSell[] = { 4000, 0, 0, 0 };
         insurance = 2500;
@@ -401,7 +401,7 @@ class LifeCfgVehicles {
     };
 
     class O_MRAP_02_F {
-        vItemSpace = 60;
+        vItemSpace = 80;
         storageFee[] = { 45000, 0, 0, 0 };
         garageSell[] = { 65000, 0, 0, 0 };
         insurance = 2500;
@@ -423,7 +423,7 @@ class LifeCfgVehicles {
     };
 
     class I_MRAP_03_F {
-        vItemSpace = 58;
+        vItemSpace = 80;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
         insurance = 2500;
@@ -444,7 +444,7 @@ class LifeCfgVehicles {
     };
 
     class C_Offroad_01_F {
-        vItemSpace = 65;
+        vItemSpace = 80;
         storageFee[] = { 1000, 500, 650, 1000 };
         garageSell[] = { 6500, 2500, 0, 0 };
         insurance = 2500;
@@ -499,7 +499,7 @@ class LifeCfgVehicles {
     };
 
     class C_Kart_01_Blu_F {
-        vItemSpace = 20;
+        vItemSpace = 0;
         storageFee[] = { 1500, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
         inusrance = 1650;
@@ -508,7 +508,7 @@ class LifeCfgVehicles {
     };
 
     class C_Kart_01_Fuel_F {
-        vItemSpace = 20;
+        vItemSpace = 0;
         storageFee[] = { 1500, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
         inusrance = 1650;
@@ -517,7 +517,7 @@ class LifeCfgVehicles {
     };
 
     class C_Kart_01_Red_F {
-        vItemSpace = 20;
+        vItemSpace = 0;
         storageFee[] = { 1500, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
         inusrance = 1650;
@@ -526,7 +526,7 @@ class LifeCfgVehicles {
     };
 
     class C_Kart_01_Vrana_F {
-        vItemSpace = 20;
+        vItemSpace = 0;
         storageFee[] = { 1500, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
         inusrance = 1650;
@@ -535,7 +535,7 @@ class LifeCfgVehicles {
     };
 
     class C_Hatchback_01_sport_F {
-        vItemSpace = 45;
+        vItemSpace = 50;
         storageFee[] = { 2500, 1000, 0, 0 };
         garageSell[] = { 15000, 7500, 0, 0 };
         insurance = 5500;
@@ -646,7 +646,7 @@ class LifeCfgVehicles {
     };
 
     class O_Truck_03_covered_F {
-        vItemSpace = 300;
+        vItemSpace = 700;
         storageFee[] = { 25000, 0, 0, 0 };
         garageSell[] = { 65000, 0, 0, 0 };
         insurance = 2500;
@@ -655,7 +655,7 @@ class LifeCfgVehicles {
     };
 
     class C_Hatchback_01_F {
-        vItemSpace = 40;
+        vItemSpace = 80;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 4500, 3500, 0, 0 };
         insurance = 2500;
@@ -705,7 +705,7 @@ class LifeCfgVehicles {
 	};
 	
     class C_SUV_01_F {
-        vItemSpace = 50;
+        vItemSpace = 80;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 15000, 7500, 0, 0 };
         insurance = 2500;
@@ -842,7 +842,7 @@ class LifeCfgVehicles {
     };
 
     class B_Heli_Light_01_F {
-        vItemSpace = 90;
+        vItemSpace = 100;
         storageFee[] = { 45000, 19500, 0, 0 };
         garageSell[] = { 57000, 35000, 0, 0 };
         insurance = 2500;
@@ -891,7 +891,7 @@ class LifeCfgVehicles {
     };
 
     class O_Heli_Light_02_unarmed_F {
-        vItemSpace = 210;
+        vItemSpace = 300;
         storageFee[] = { 55000, 0, 22000, 0 };
         garageSell[] = { 72500, 0, 35000, 0 };
         insurance = 2500;
