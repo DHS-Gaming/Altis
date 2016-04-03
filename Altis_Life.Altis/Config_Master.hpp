@@ -14,7 +14,7 @@ class Life_Settings {
     save_veh_gear = true; //Save Gear for vehicles (all sides)?
 
     /* Cop related settings */
-    cops_online_min = 2; //minimum cops online for robbing a bank
+    cops_online_min = 0; //minimum cops online for robbing a bank
 	
     /* Clothing related settings */
     clothing_box = true; //true = preview inside a black box.  false = preview on map.
@@ -77,7 +77,7 @@ class Life_Settings {
     gang_upgradeMultiplier = 2.5; //Not sure if in use?
 
     /* Player-related systems */
-    enable_fatigue = false; //Set to false to disable the ARMA 3 false system.
+    enable_fatigue = true; //Set to false to disable the ARMA 3 false system.
     total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
     paycheck_period = 5; //Scaled in minutes
 
